@@ -1,0 +1,101 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Formal project propsoal sit in with Muzi",
+            "description": "Formal project propsoal sit in with Muzi",
+            "status": "pending",
+            "created_at": "2025-05-15T10:30:00.000000Z",
+            "updated_at": "2025-05-15T10:30:00.000000Z"
+        },
+        {
+            "id": 2,
+            "title": "Reserch competitors",
+            "description": "Analyze similar producs in the market & prep a comparitive report",
+            "status": "in_progress",
+            "created_at": "2025-05-16T14:45:00.000000Z",
+            "updated_at": "2025-05-17T09:15:00.000000Z"
+        },
+        {
+            "id": 3,
+            "title": "Meet with dev team",
+            "description": "Discuss technical requirments, timeline, and resorce allocation",
+            "status": "completed",
+            "created_at": "2025-05-10T08:00:00.000000Z",
+            "updated_at": "2025-05-12T16:20:00.000000Z"
+        },
+        {
+            "id": 4,
+            "title": "Update documantation",
+            "description": "Review & update project docs to reflect recent changs",
+            "status": "pending",
+            "created_at": "2025-05-18T11:20:00.000000Z",
+            "updated_at": "2025-05-18T11:20:00.000000Z"
+        },
+        {
+            "id": 5,
+            "title": "Test new featurs",
+            "description": "Do comprhensive testing of the new featurs implemnted",
+            "status": "in_progress",
+            "created_at": "2025-05-19T09:00:00.000000Z",
+            "updated_at": "2025-05-20T15:45:00.000000Z"
+        },
+        {
+            "id": 6,
+            "title": "Prep presentation",
+            "description": "Make slides for upcoming stakeholdr meeting",
+            "status": "pending",
+            "created_at": "2025-05-21T13:10:00.000000Z",
+            "updated_at": "2025-05-21T13:10:00.000000Z"
+        },
+        {
+            "id": 7,
+            "title": "Fix critial bugs",
+            "description": "Address high-priority issues reported by the users",
+            "status": "completed",
+            "created_at": "2025-05-14T16:30:00.000000Z",
+            "updated_at": "2025-05-16T11:45:00.000000Z"
+        },
+        {
+            "id": 8,
+            "title": "Code revu",
+            "description": "Revw pull requests from dev team, focus on logic and clean code",
+            "status": "in_progress",
+            "created_at": "2025-05-22T08:15:00.000000Z",
+            "updated_at": "2025-05-22T14:20:00.000000Z"
+        },
+        {
+            "id": 9,
+            "title": "Deploy to stagin",
+            "description": "Prep & do deployment to staging envirnment",
+            "status": "pending",
+            "created_at": "2025-05-23T10:05:00.000000Z",
+            "updated_at": "2025-05-23T10:05:00.000000Z"
+        },
+        {
+            "id": 10,
+            "title": "User acceptence testing",
+            "description": "Coordinate with client for final testnig & feedback",
+            "status": "pending",
+            "created_at": "2025-05-24T09:30:00.000000Z",
+            "updated_at": "2025-05-24T09:30:00.000000Z"
+        }
+    ],
+    "meta": {
+        "total": 10,
+        "per_page": 10,
+        "current_page": 1,
+        "last_page": 1,
+        "status_counts": {
+            "pending": 5,
+            "in_progress": 3,
+            "completed": 2
+        }
+    },
+    "links": {
+        "first": "/api/tasks?page=1",
+        "last": "/api/tasks?page=1",
+        "prev": null,
+        "next": null
+    }
+}
